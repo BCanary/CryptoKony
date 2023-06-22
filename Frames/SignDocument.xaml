@@ -1,0 +1,42 @@
+﻿<Page x:Class="CryptoKony_Client.Frames.SignDocument"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CryptoKony_Client.Frames"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="SignDocument">
+
+    <Grid>
+        <StackPanel Grid.Row="0" VerticalAlignment="Center">
+            <Grid Margin="20 5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="200"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Button Content="Выбрать файл" Height="40" Padding="20,0" Click="File_Click"></Button>
+                <TextBox Grid.Column="1" x:Name="PathBox" Grid.Row="1" IsReadOnly="True"></TextBox>
+            </Grid>
+            <Grid Margin="20 5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="200"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Button Content="Выбрать сертификат" Height="40" Padding="20,0" Click="Cert_Click"></Button>
+                <TextBox Grid.Column="1" x:Name="certPathBox" Grid.Row="1" IsReadOnly="True"></TextBox>
+            </Grid>
+            <Grid Margin="20 5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="200"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Button Content="Выбрать закрытый ключ" Height="40" Padding="20,0" Click="Key_Click"></Button>
+                <TextBox Grid.Column="1" x:Name="KeyPathBox" Grid.Row="1" IsReadOnly="True"></TextBox>
+            </Grid>
+            <Button Content="Подписать" Height="40" Padding="20,0" Click="Hash_Click" Margin="20 5"></Button>
+            <!--<Button Content="Проверить подпись" Height="40" Padding="20,0" Click="Verify_Click" Margin="20 5"></Button>-->
+        </StackPanel>
+
+    </Grid>
+</Page>

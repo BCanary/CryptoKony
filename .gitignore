@@ -1,0 +1,23 @@
+# Проекты C#
+bin/
+obj/
+*.user
+*.suo
+*.vscode/
+
+# Пакеты NuGet
+packages/
+
+# Файлы с локальными настройками
+*.config.user
+*.cscfg
+
+# Файлы с конфигурацией IIS Express
+*.csproj.user
+*.pubxml.user
+*.publishsettings
+
+# Конфиденциальные данные
+*.pfx
+*.snk
+*.cer
