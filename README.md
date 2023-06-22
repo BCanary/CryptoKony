@@ -36,7 +36,7 @@ PFJTQUtleVZhbHVlPjxNb2R1bHVzPnBNY2lOY09STktSQlJjOUgrMnJ2c0tUL09sTVprTndNcjZzS3lI
 T3zpyWwl5cpf0YafEn9q27Rc0qWrlypOlAdxCaFXJrJNMC46RLMz7adA4u+o0KYHHt3Eix//VrogWUQ7NWIQOI1/XNc3ZPxPNDZCyHCKylLH4TbVSqLobnODUWVzSv+D68QIBiIVdgT+cE07jgSWQsgAAiBjEVAxax3Sr9RqqroT2hIByot4Vam7zNqgSA8uImA2EcG/KcB+p3UNcFp66Bgi2kXDTkhQU9QJKM3ypr0IEfwn84lcBDzwfFxgBtw5aupwlb3q+71os00AYK4zCJNhQ5rnG+/UEMwvxch0TyqRmnYOKk5U9xZJO9HE2wHEE5UCuffH3R1Mwlz59pYogw==
 -----КОНЕЦ СЕРТИФИКАТА-----
 ```
-> Корневой сертификат CryptoKony установленный по умолчанию в программу
+> Корневой сертификат CryptoKony, установленный по умолчанию в программу
 
 ## Как это работает?
 Перейдите на вики-страничку CryptoKony и прочитайте подробности:
