@@ -9,9 +9,7 @@
 - Установленный .NET 6.0
 
 ## Что такое CryptoKony?
-Это абсолютно бесплатный инструмент для работы с ЭП и сертификатами основанный на RSA-2048bit.
-
-![image](https://github.com/BCanary/CryptoKony/assets/59798021/b0e73644-3013-40d4-8916-3e15d3a14e86)
+Это абсолютно бесплатный инструмент для работы с ЭП и сертификатами основанный на RSA-2048bit и стандарте X.510.
 
 ## Какими ещё сертификатами?
 Абсолютно новый революционный русский стандарт X.510 (Читается как "Хэ точка 510", не путать с "Икс") содержит в себе информацию о том: 
@@ -21,8 +19,28 @@
 - Когда истекает сертификат;
 - Открытый ключ сертификата.
 
-![image](https://github.com/BCanary/CryptoKony/assets/59798021/d84cc3e9-1263-45b3-84ae-ddd5dc288610)
-> Корневой сертификат CryptoKony
+```
+-----НАЧАЛО СЕРТИФИКАТА-----
+[СЕРТИФИКАТ]
+КОМУ ВЫДАН=CryptoKony CA
+КЕМ ВЫДАН=CryptoKony CA
+СОЗДАН=22.06.2023 10:46:41
+ИСТЕКАЕТ=24.10.2030 00:00:00
+ID=42104ceb-2b74-456e-aae7-61886af25711
+[ОТКРЫТЫЙ КЛЮЧ]
+-----BEGIN PUBLIC KEY-----
+PFJTQUtleVZhbHVlPjxNb2R1bHVzPnBNY2lOY09STktSQlJjOUgrMnJ2c0tUL09sTVprTndNcjZzS3lIY2FMOWlTRVdGVmlNdDZadmlrQ2FJWmJMamwyS0t2SnVLZUg3N21QRHRTMTBwamFPNHlSUWl4b01OdFZkdjhyTXo3OUpESXJ5VjQ3bHMzcExuSnBYY0p0L2hRdS9iN3E5K2cxK09WWVlialpZbzhuR0xKek92U0YzM0tjbDIwbmtFMTdCMFJubXp1VjBILzA1VjJSYjBHTElLVnRyNURHVGhYcFdKTWZkOVo3VDRTc1J3VCt0VXlWd3NKY0pXMDJSK1l5NXNmYWtQckEwNURFVnNGVFF2aURxcmhPcStGZjdjU0lMbmlxQ21ZdWIwOXlBSDlOa1RQY0xtU25jTW52aUxrR0RSeTVOV2FJeGxzdnhYVnQveVMvN0pMZm9GMGtXMjllQSt2T0xCYis3WWI4UT09PC9Nb2R1bHVzPjxFeHBvbmVudD5BUUFCPC9FeHBvbmVudD48L1JTQUtleVZhbHVlPg==
+-----END PUBLIC KEY-----
+
+[ПОДПИСЬ]
+T3zpyWwl5cpf0YafEn9q27Rc0qWrlypOlAdxCaFXJrJNMC46RLMz7adA4u+o0KYHHt3Eix//VrogWUQ7NWIQOI1/XNc3ZPxPNDZCyHCKylLH4TbVSqLobnODUWVzSv+D68QIBiIVdgT+cE07jgSWQsgAAiBjEVAxax3Sr9RqqroT2hIByot4Vam7zNqgSA8uImA2EcG/KcB+p3UNcFp66Bgi2kXDTkhQU9QJKM3ypr0IEfwn84lcBDzwfFxgBtw5aupwlb3q+71os00AYK4zCJNhQ5rnG+/UEMwvxch0TyqRmnYOKk5U9xZJO9HE2wHEE5UCuffH3R1Mwlz59pYogw==
+-----КОНЕЦ СЕРТИФИКАТА-----
+```
+> Корневой сертификат CryptoKony установленный по умолчанию в программу
+
+## Как это работает?
+Перейдите на вики-страничку CryptoKony и прочитайте подробности:
+https://github.com/BCanary/CryptoKony/wiki/%D0%9A%D0%B0%D0%BA-%D1%8D%D1%82%D0%BE-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D0%B5%D1%82%3F
 
 ## А кому доверять?
 А я поддерживаю я. Доверяйте мне. Я подписал сам себе корневой сертификат - подпишу сертификат и вам. Потом каждый у кого установлен корневой сертификат CryptoKony сможет подтвердить владение вашей подписи. Пишите письма.
